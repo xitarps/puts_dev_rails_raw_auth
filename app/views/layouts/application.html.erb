@@ -14,7 +14,13 @@
     <h1>Blog</h1>
     <nav>
       <%= link_to 'home', root_path %> |
-      <%= link_to 'articles', articles_path %>
+      <% if signed_in? %>
+        <%= link_to 'articles', articles_path %> | 
+        <%= link_to 'sign out', signout_path, data: { turbo_method: :delete } %> | 
+      <% else %>
+        <%= link_to 'sign in', signin_path %> | 
+      <% end %>
+      
     </nav>
     <hr>
     <%= yield %>
