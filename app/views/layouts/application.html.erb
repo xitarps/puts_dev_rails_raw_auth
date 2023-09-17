@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <h1>Blog</h1>
+    <nav>
+      <%= link_to 'home', root_path %> |
+      <%= link_to 'articles', articles_path %>
+    </nav>
+    <hr>
     <%= yield %>
   </body>
 </html>
