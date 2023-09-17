@@ -10,4 +10,4 @@ Vamos explorar a criação dos métodos famosos como authenticate_user!, current
 
 ## Youtube
 
-[Youtube link](https://youtu.be/mYVJNdng-zw)
+[Youtube link](https://youtu.be/X3d16T-kIRk)
