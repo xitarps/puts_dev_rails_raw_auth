@@ -1,24 +1,13 @@
-# README
+## PUTS DEV - Ruby on Rails 7 raw auth
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Puts dev, quer dar os primeiros passos em autenticação no rails... sem gems?
+Eu pessoalmente fiquei maravilhado com autenticação no rails utilizando gems famosas como Devise,
+ainda sim fiquei muito curioso de como seria tentar imitar o comportamento dessa gem.
 
-Things you may want to cover:
+Aqui desenvolvemos **Authenticação sem gemas de autenticação** no Ruby On Rails 7
 
-* Ruby version
+Vamos explorar a criação dos métodos famosos como authenticate_user!, current_user e a aplicação da gem bcrypt que já vem sugerida no Gemfile do rails.
 
-* System dependencies
+## Youtube
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Youtube link](https://youtu.be/mYVJNdng-zw)
